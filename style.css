@@ -1,0 +1,54 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #002339;
+    color: white;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.pass-con{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+.pass-con input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+button{
+    background-color: #019f55;
+    border: 0;
+    outline: 0;
+    padding: 15px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+
+
+}
